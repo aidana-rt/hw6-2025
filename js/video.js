@@ -8,7 +8,6 @@ window.addEventListener("load", function () {
 	video.loop = false;
 	console.log('Loop is set to ' + video.loop);
 	video.load();
-	document.querySelector("#volume").textContent = video.volume * 100 + "%";
 });
 
 document.querySelector("#play").addEventListener("click", function () {
